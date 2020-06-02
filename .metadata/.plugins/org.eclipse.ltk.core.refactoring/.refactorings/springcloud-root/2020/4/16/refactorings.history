@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;springcloud-root/身份证号码.txt&apos; to &apos;说明.txt&apos;" description="Rename resource &apos;身份证号码.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="身份证号码.txt" name="说明.txt" stamp="1586780624994" updateReferences="true"/>
+</session>

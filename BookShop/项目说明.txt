@@ -1,0 +1,1 @@
+通过安装spring的官方插件STS，是插件直接创建的springboot项目

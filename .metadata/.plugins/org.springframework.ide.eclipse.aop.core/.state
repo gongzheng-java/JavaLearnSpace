@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="service-consumer-feign"/>
+<aop-project name="BookShop"/>
+<aop-project name="BookShop-admiin"/>
+<aop-project name="service-producer"/>
+<aop-project name="eureka-server"/>
+<aop-project name="service-zuul"/>
+<aop-project name="BookShop-web"/>
+<aop-project name="service-consumer"/>
+<aop-project name="springcloud-eureka"/>
+</aop-reference-model>

@@ -1,0 +1,14 @@
+
+
+stringbuilder和stringbuffer都是可变字符系列，
+stringbuilder 线程不安全，效率高
+stringbuffer  线程安全，效率低
+
+stringbuilder和stringbuffer的使用方法是一样的，它们具有相同的方法。
+不同的是stringbuffer中的方法都添加了synchronized修饰
+
+
+string字符串是不可改变的，而stringbuilder和stringbuffer类型字符串是可以改变的，
+其根本原因是，string类中char数组是final修饰的；
+stringbuilder和stringbuffer都有共同的父类AbstractStringBuilder,
+而AbstractStringBuilder类中，char数组没有使用final修饰，采用的是默认修饰符friendly

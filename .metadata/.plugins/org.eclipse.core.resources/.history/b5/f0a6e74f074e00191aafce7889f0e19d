@@ -1,0 +1,28 @@
+package Collection.矩阵matrix;
+
+/**
+ *
+ * @Author: gongZheng
+ * @Date: 2019年3月24日 下午3:28:42
+ * @Description:
+ */
+public class Matrix {
+	
+	
+	public static void main(String[] args) {
+		int[][] a = { 
+				{ 3, 6 }, 
+				{ 5, 4 } 
+				};
+		int[][] b = { 
+				{ 5, 8 },
+				{ 9, 4 } 
+				};
+		
+	}
+	
+	public static int[][] addMatrix(){
+		
+	}
+
+}

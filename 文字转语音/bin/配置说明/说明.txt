@@ -1,0 +1,30 @@
+jar包存储路径：F:\JAVA File\Java jar包\jacobjar和jacob-1.17dll
+
+使用前操作
+    1、把dll文件放在%JAVA_HOME%\bin下（注意系统是32位还是64位），也可以放在C:\Windows\System32下，如果是64位应该放在C:\Windows\SysWOW64 下。建议放在jdk的bin目录下
+    2、如果是在eclipse下开发，需要重新引入jdk（Preference/Java/Installed JREs）
+    3、开发时将jacab.jar包放在项目lib下并add到liabraries中即可。
+
+
+
+如何这样做了还是不能运行，那可能就是下面的原因（文件：jacob-1.18.zip网上有很多可以下载）：
+
+解压后获得3个文件
+
+jacob.jar
+jacob-1.17-x64.dll
+jacob-1.17-x86.dll
+
+ 
+
+jacob.jar 放到项目的lib目录
+
+win7
+
+jacob-1.17-x64.dll 放到C:\Windows\System32
+
+jacob-1.17-x86.dll 放到C:\Windows\SysWOW64
+
+ 
+
+还要注意的是，32位JDK只能加载32位DLL，64位JDK只能加载64位DLL，不能互相兼容。

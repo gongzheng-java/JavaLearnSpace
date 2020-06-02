@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="src/lib/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="src/lib/jacob-1.10.jar"/>
+	<classpathentry kind="lib" path="src/lib/cxf-2.5.9.jar"/>
+	<classpathentry kind="lib" path="src/lib/cxf-api-2.6.1.jar"/>
+	<classpathentry kind="lib" path="src/lib/cxf-core-3.2.5.jar"/>
+	<classpathentry kind="lib" path="src/lib/cxf-manifest.jar"/>
+	<classpathentry kind="lib" path="src/lib/cxf-services-sts-core-2.5.9.jar"/>
+	<classpathentry kind="lib" path="src/lib/cxf-services-wsn-api-2.5.9.jar"/>
+	<classpathentry kind="lib" path="src/lib/cxf-services-wsn-core-2.5.9.jar"/>
+	<classpathentry kind="lib" path="src/lib/cxf-xjc-boolean-2.4.0.jar"/>
+	<classpathentry kind="lib" path="src/lib/cxf-xjc-bug671-2.4.0.jar"/>
+	<classpathentry kind="lib" path="src/lib/cxf-xjc-dv-2.4.0.jar"/>
+	<classpathentry kind="lib" path="src/lib/cxf-xjc-ts-2.4.0.jar"/>
+	<classpathentry kind="lib" path="src/lib/cxf-rt-frontend-jaxws-3.2.5.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

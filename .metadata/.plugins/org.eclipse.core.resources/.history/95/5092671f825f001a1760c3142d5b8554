@@ -1,0 +1,6 @@
+server.port=8030
+
+server.servlet.context-path=/bookshop
+
+#设置session超时，单位s
+server.servlet.session.timeout=600

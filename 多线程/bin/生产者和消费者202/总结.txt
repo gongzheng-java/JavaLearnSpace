@@ -1,0 +1,10 @@
+  
+  
+  
+   总结：
+                   该示例展示了JDK1.5版本之后提供的多线程升级解决方案，将同步synchronized替换成了Lock
+       将锁对象 Object 监视器方法（wait、notify 和 notifyAll）替换成了condition对象，
+    synchronized 方法或语句的使用提供了对与每个对象相关的隐式监视器锁的访问，而新特性提供了显示锁机制，以及显示的
+    condition监视器操作
+       
+       

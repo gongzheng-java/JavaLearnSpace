@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;文字转语音/src/配置说明/新建文本文档 (2).txt&apos; to &apos;说明.txt&apos;" description="Rename resource &apos;新建文本文档 (2).txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/配置说明/新建文本文档 (2).txt" name="说明.txt" stamp="1576217147453" updateReferences="true"/>
+</session>

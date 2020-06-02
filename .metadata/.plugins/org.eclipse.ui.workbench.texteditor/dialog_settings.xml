@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="ribbon" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="ribbon"/>
+			<item value="eureka"/>
+			<item value="starter-security"/>
+			<item value="starter-secrity"/>
+			<item value="start-secrity"/>
+			<item value="addCorsMappings"/>
+			<item value="addResourceHandlers"/>
+			<item value="configureViewResolvers"/>
+			<item value="junit"/>
+			<item value="mysql"/>
+			<item value="test"/>
+			<item value="jpa"/>
+			<item value="compiler"/>
+			<item value="updateName"/>
+			<item value="editEmp"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="273" key="DIALOG_WIDTH"/>
+		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
+		<item value="403" key="DIALOG_HEIGHT"/>
+		<item value="352" key="DIALOG_Y_ORIGIN"/>
+		<item value="912" key="DIALOG_X_ORIGIN"/>
+	</section>
+</section>

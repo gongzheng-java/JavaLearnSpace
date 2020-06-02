@@ -1,0 +1,89 @@
+package com.gongzheng.app.repository;
+
+import java.util.Date;
+import java.util.List;
+import java.util.Optional;
+
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Predicate;
+import javax.persistence.criteria.Root;
+
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Example;
+import org.springframework.data.jpa.domain.Specification;
+
+import com.gongzheng.app.BaseTest;
+import com.gongzheng.app.domain.Book;
+import com.gongzheng.app.domain.pojo.Common;
+
+/**
+ * 图书测试类
+ * @Author: gongZheng
+ * @Date:   2020年3月3日   下午10:58:46 
+ * @Description:
+ */
+public class BookRepositoryTest extends BaseTest {
+
+	@Autowired
+	private BookRepository bookRepository;
+
+	@Test
+	public void saveTest() {
+
+		Book book = new Book();
+		book.setName("时间简史");
+		Common common = new Common();
+		common.setDel_flag(0);
+		book.setCommon(common);
+		bookRepository.save(book);
+
+		System.out.println("保存成功！");
+	}
+
+	@Test
+	public void FindAllTest() {
+
+		//List<Book> bList = bookRepository.findAll();
+		Book book=null;
+		 //book = bookRepository.findByName("时间简史");
+		book = bookRepository.getOne(14L);
+		System.out.println(book.toString());
+
+	}
+	
+	/**
+	 * 动态查询
+	 */
+	@Test
+	public void DynamicQueryTest() {
+		//参数对象
+		Book book=new Book();
+		book.setName("战争与和平");
+		Specification<Book> spec=new Specification<Book>() {
+	
+			/**
+			 * root是对实体对象的封装
+			 */
+			@Override
+			public Predicate toPredicate(Root<Book> root, CriteriaQuery<?> query, CriteriaBuilder cb) {
+				
+				//添加条件  第一个参数是属性名 第二个是属性值,一般放参数名，如果参数名有值，则查询，没有则不查询
+				Predicate p1=cb.equal(root.get("category").get("name"), "名著");
+				Predicate p2=cb.equal(root.get("name"), "战争与和平");
+				Predicate p3=cb.equal(root.get("common").get("del_flag"), 1);
+				//组装条件
+				Predicate p=cb.and(p1,p2,p3);
+				return p;
+			}
+			
+		};
+		
+	  List<Book> books=	bookRepository.findAll(spec);
+	 System.out.println(books.get(0).toString());
+	
+		
+	}
+
+}

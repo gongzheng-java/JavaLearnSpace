@@ -1,0 +1,51 @@
+package Collection.矩阵matrix;
+
+/**
+ *
+ * @Author: gongZheng
+ * @Date: 2019年3月24日 下午3:28:42
+ * @Description:
+ */
+public class Matrix {
+
+	public static void main(String[] args) {
+		int[][] a = { { 3, 6, 9 }, { 3, 6, 6 }, { 5, 4, 2 } };
+		int[][] b = { { 3, 6, 1 }, { 5, 8, 4 }, { 9, 4, 8 } };
+		System.out.println(a.length);
+		System.out.println(b.length);
+		int[][] c = addMatrix(a, b);
+		output(c);
+	}
+
+	/**
+	 * 矩阵相加
+	 * 
+	 * @param a
+	 * @param b
+	 * @return
+	 */
+	public static int[][] addMatrix(int[][] a, int[][] b) {
+		int[][] result = new int[2][2];
+		for (int i = 0; i < result.length; i++) {
+			for (int j = 0; j < result.length; j++) {
+				result[i][j] = a[i][j] + b[i][j];
+			}
+		}
+		return result;
+	}
+
+	/**
+	 * 打印输出结果
+	 * 
+	 * @param a
+	 */
+	public static void output(int[][] a) {
+		for (int i = 0; i < a.length; i++) {
+			for (int j = 0; j < a.length; j++) {
+				System.out.print(a[i][j] + "\t");
+			}
+			System.out.println();
+		}
+	}
+
+}

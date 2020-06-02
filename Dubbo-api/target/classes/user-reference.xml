@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://code.alibabatech.com/schema/dubbo
+       http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <!-- 引用服务配置 -->
+    <!-- cluster[ˈklʌstə(r)]  的作用是性能调优，共有5个值：failover、failfast、failsafe、failback、forking。其中缺省值是failover（fail [feɪl] 失败 ）。  
+        failover： 失败自动切换。失败自动切换，当出现失败，重试其它服务器。(缺省) 通常用于读操作，但重试会带来更长延迟。可通过retries="2"来设置重试次数(不含第一次)。
+        failfast：快速失败。只发起一次调用，失败立即报错。通常用于幂等性的写操作，比如新增记录。
+        failsafe：失败安全。出现异常时，直接忽略。通常用于写入审计日志等操作。
+        failback：失败自动恢复。失败自动恢复，后台记录失败请求，定时重发。通常用于消息通知操作。
+        forking：并行调用。并行调用多个服务器，只要一个成功即返回。通常用于实用性要求较高的读操作，单需要浪费更多服务资源。可通过fork=“2”来设置最大并行数。
+        -->
+     <!-- Dubbo缺省会在启动时检查依赖的服务是否可用，不可用时会抛出异常，阻止Spring初始化完成，以便上线时，能及早发现问题，默认check=true。
+                 如果你的Spring容器是懒加载的，或者通过API编程延迟引用服务，请关闭check，否则服务临时不可用时，会抛出异常，拿到null引用，
+                 如果check=false，总是会返回引用，当服务恢复时，能自动连上。 
+                 本实例中是关闭某个服务的启动时检查，如果关闭所有服务的启动时检查，则是：<dubbo:consumer check="false" ；
+                 关闭注册中心/启动时检查：<dubbo:registry check="false" />。当然也可以通过dubbo.properties配置文件配置。-->
+    <dubbo:reference id="userService" interface="com.dubbo.api.UserService" cluster="failfast" check="false"/>
+
+</beans>

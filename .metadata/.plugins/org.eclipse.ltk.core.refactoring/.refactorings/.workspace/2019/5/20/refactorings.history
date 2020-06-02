@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;comwave-cfc-org&apos;" deleteContents="false" description="Delete resource &apos;comwave-cfc-org&apos;" element1="/comwave-cfc-org" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1557798548940"/>&#x0A;<refactoring comment="Delete resource &apos;MyGame&apos;" deleteContents="true" description="Delete resource &apos;MyGame&apos;" element1="/MyGame" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1558010848027"/>
+</session>

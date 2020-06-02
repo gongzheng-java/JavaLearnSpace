@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1511510928355_4" label="数据库连接" name="数据库连接">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Test(连接数据库)" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1512035907533_4" label="多线程" name="多线程">
+<item elementID="=多线程" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1513573351083_6" label="面向对象" name="面向对象">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/java反射机制" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/面向对象" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1517366933269_9" label="网络编程" name="网络编程">
+<item elementID="=网络编程" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1518333536918_10" label="其他" name="其他">
+<item elementID="=小功能" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/测试日志" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/java二维码" type="4"/>
+<item elementID="=视频转码" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/java新特性" type="4"/>
+<item elementID="=文字转语音" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=消息队列" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=测试" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=时间相关处理" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1524302762735_14" label="Java8新特性" name="Java8新特性">
+<item elementID="=Java8新特性" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1550820367265_16" label="JavaCourse" name="JavaCourse">
+<item elementID="=JavaSenior" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Study" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=JavaMiddle" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=JavaBase" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1552118006799_17" label="Dubbo" name="Dubbo">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/dubbo-provider" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Dubbo-consumer" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Dubbo-api" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1578222922151_18" label="Java Main Sources" name="Java Main Sources">
+<item elementID="=BookShop/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=BookShop/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=BookShop-admiin/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=BookShop-admiin/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Interview/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Java8新特性/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=JavaBase/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=JavaMiddle/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=JavaSenior/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Study/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=eureka-server/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=eureka-server/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=service-consumer/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=service-consumer/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=service-consumer-feign/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=service-consumer-feign/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=service-producer/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=service-producer/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=service-zuul/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=service-zuul/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=多线程/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=多线程/src2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=小功能/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=文字转语音/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=时间相关处理/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=测试/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=消息队列/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=网络编程/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=视频转码/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1578222922165_19" label="Java Test Sources" name="Java Test Sources">
+<item elementID="=BookShop/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=BookShop/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=BookShop-admiin/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=eureka-server/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=eureka-server/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=service-consumer/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=service-consumer-feign/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=service-producer/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=service-zuul/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1578568409108_21" label="BookShop" name="BookShop">
+<item elementID="=BookShop" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=BookShop-admiin" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/BookShop-web" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1586762019964_22" label="SpringCloud" name="SpringCloud">
+<item elementID="=service-consumer-feign" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=service-producer" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=eureka-server" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=service-zuul" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=service-consumer" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1509959197786_0" label="Window Working Set" name="Aggregate for window 1509959197785"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1512035946837_5" label="Multiple Working Sets" name="Aggregate:多线程:数据库连接:数据库同步:">
+<workingSet IMemento.internal.id="多线程"/>
+<workingSet IMemento.internal.id="数据库连接"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1517366894389_8" label="Multiple Working Sets" name="Aggregate:多线程:面向对象:数据库连接:数据库同步:">
+<workingSet IMemento.internal.id="多线程"/>
+<workingSet IMemento.internal.id="面向对象"/>
+<workingSet IMemento.internal.id="数据库连接"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1517366936647_10" label="Multiple Working Sets" name="Aggregate:多线程:面向对象:数据库连接:数据库同步:网络编程:">
+<workingSet IMemento.internal.id="多线程"/>
+<workingSet IMemento.internal.id="面向对象"/>
+<workingSet IMemento.internal.id="数据库连接"/>
+<workingSet IMemento.internal.id="网络编程"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1518333658704_11" label="Multiple Working Sets" name="Aggregate:多线程:面向对象:其他:数据库连接:数据库同步:网络编程:">
+<workingSet IMemento.internal.id="多线程"/>
+<workingSet IMemento.internal.id="面向对象"/>
+<workingSet IMemento.internal.id="其他"/>
+<workingSet IMemento.internal.id="数据库连接"/>
+<workingSet IMemento.internal.id="网络编程"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1524302728713_13" label="Multiple Working Sets" name="Aggregate:多线程:面向对象:其他:数据库连接:数据库同步:网络编程:SpringBoot:">
+<workingSet IMemento.internal.id="多线程"/>
+<workingSet IMemento.internal.id="面向对象"/>
+<workingSet IMemento.internal.id="其他"/>
+<workingSet IMemento.internal.id="数据库连接"/>
+<workingSet IMemento.internal.id="网络编程"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1531729208356_15" label="Multiple Working Sets" name="Aggregate:多线程:面向对象:其他:数据库连接:数据库同步:网络编程:Java8新特性:SpringBoot:">
+<workingSet IMemento.internal.id="多线程"/>
+<workingSet IMemento.internal.id="面向对象"/>
+<workingSet IMemento.internal.id="其他"/>
+<workingSet IMemento.internal.id="数据库连接"/>
+<workingSet IMemento.internal.id="网络编程"/>
+<workingSet IMemento.internal.id="Java8新特性"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1539246102490_16" label="Multiple Working Sets" name="Aggregate:多线程:面向对象:其他:数据库连接:网络编程:Java8新特性:SpringBoot:">
+<workingSet IMemento.internal.id="多线程"/>
+<workingSet IMemento.internal.id="面向对象"/>
+<workingSet IMemento.internal.id="其他"/>
+<workingSet IMemento.internal.id="数据库连接"/>
+<workingSet IMemento.internal.id="网络编程"/>
+<workingSet IMemento.internal.id="Java8新特性"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1583747402683_21" label="Multiple Working Sets" name="Aggregate:多线程:面向对象:其他:数据库连接:网络编程:Dubbo:Java Main Sources:Java Test Sources:Java8新特性:JavaCourse:Project:">
+<workingSet IMemento.internal.id="多线程"/>
+<workingSet IMemento.internal.id="面向对象"/>
+<workingSet IMemento.internal.id="其他"/>
+<workingSet IMemento.internal.id="数据库连接"/>
+<workingSet IMemento.internal.id="网络编程"/>
+<workingSet IMemento.internal.id="Dubbo"/>
+<workingSet IMemento.internal.id="Java Main Sources"/>
+<workingSet IMemento.internal.id="Java Test Sources"/>
+<workingSet IMemento.internal.id="Java8新特性"/>
+<workingSet IMemento.internal.id="JavaCourse"/>
+<workingSet IMemento.internal.id="BookShop"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1583747417449_22" label="Multiple Working Sets" name="Aggregate:多线程:面向对象:其他:数据库连接:网络编程:Dubbo:Java8新特性:JavaCourse:Project:">
+<workingSet IMemento.internal.id="多线程"/>
+<workingSet IMemento.internal.id="面向对象"/>
+<workingSet IMemento.internal.id="其他"/>
+<workingSet IMemento.internal.id="数据库连接"/>
+<workingSet IMemento.internal.id="网络编程"/>
+<workingSet IMemento.internal.id="Dubbo"/>
+<workingSet IMemento.internal.id="Java8新特性"/>
+<workingSet IMemento.internal.id="JavaCourse"/>
+<workingSet IMemento.internal.id="BookShop"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1589103606032_24" label="Multiple Working Sets" name="Aggregate:多线程:面向对象:其他:数据库连接:网络编程:BookShop:Dubbo:Java8新特性:JavaCourse:SpringCloud:SpringCloud搭建:">
+<workingSet IMemento.internal.id="多线程"/>
+<workingSet IMemento.internal.id="面向对象"/>
+<workingSet IMemento.internal.id="其他"/>
+<workingSet IMemento.internal.id="数据库连接"/>
+<workingSet IMemento.internal.id="网络编程"/>
+<workingSet IMemento.internal.id="BookShop"/>
+<workingSet IMemento.internal.id="Dubbo"/>
+<workingSet IMemento.internal.id="Java8新特性"/>
+<workingSet IMemento.internal.id="JavaCourse"/>
+<workingSet IMemento.internal.id="SpringCloud"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1589103680976_25" label="Multiple Working Sets" name="Aggregate:多线程:面向对象:其他:数据库连接:网络编程:BookShop:Dubbo:Java8新特性:JavaCourse:SpringCloud:">
+<workingSet IMemento.internal.id="多线程"/>
+<workingSet IMemento.internal.id="面向对象"/>
+<workingSet IMemento.internal.id="其他"/>
+<workingSet IMemento.internal.id="数据库连接"/>
+<workingSet IMemento.internal.id="网络编程"/>
+<workingSet IMemento.internal.id="BookShop"/>
+<workingSet IMemento.internal.id="Dubbo"/>
+<workingSet IMemento.internal.id="Java8新特性"/>
+<workingSet IMemento.internal.id="JavaCourse"/>
+<workingSet IMemento.internal.id="SpringCloud"/>
+</workingSet>
+</workingSetManager>

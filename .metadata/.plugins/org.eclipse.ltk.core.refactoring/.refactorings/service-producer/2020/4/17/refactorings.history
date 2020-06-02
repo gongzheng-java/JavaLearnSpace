@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;说明.txt&apos; to &apos;service-feign&apos;&#x0D;&#x0A;- Original project: &apos;service-producer&apos;&#x0D;&#x0A;- Destination element: &apos;service-feign&apos;&#x0D;&#x0A;- Original element: &apos;说明.txt&apos;" description="Copy file" destination="=service-feign" element1="说明.txt" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1587455357476" units="0" version="1.0"/>
+</session>

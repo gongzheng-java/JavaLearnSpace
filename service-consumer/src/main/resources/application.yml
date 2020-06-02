@@ -1,0 +1,10 @@
+eureka:
+  client:
+    serviceUrl:
+    #     配置服务注册中心集群时，此处可以配置多个地址(通过逗号隔开)
+      defaultZone: http://localhost:8888/eureka/
+server:
+  port: 8764
+spring:
+  application:
+    name: service-consumer

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://code.alibabatech.com/schema/dubbo
+       http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+	<!--指定了程序名称，可以在dubbo管理后台中通过该名称更清晰的区分服务 -->
+	<dubbo:application name="dubbo-provider" />
+	<!--指定了注册中心  -->
+	<dubbo:registry address="zookeeper://127.0.0.1:2181" />
+	<!-- 指定集群的容错模式，此处为快速失败，只发起一次调用，失败立即报错。 -->
+	<dubbo:provider cluster="failfast" />
+	<!-- 服务导出，注入类 -->
+	<bean id="userService" class="com.dubbo.provider.UserServiceImpl" />
+	<dubbo:service interface="com.dubbo.api.UserService" ref="userService" />
+</beans>

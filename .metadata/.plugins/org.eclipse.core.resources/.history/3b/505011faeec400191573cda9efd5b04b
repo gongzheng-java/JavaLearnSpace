@@ -1,0 +1,28 @@
+package 排序.Comparable_排序工具类实现;
+
+import java.util.Date;
+
+/**
+ *
+ * @Author: gongZheng
+ * @Date:   2019年8月22日   下午10:23:06 
+ * @Description:
+ */
+public class Test {
+	public static void main(String[] args) {
+		
+		try {
+			Date date=new Date();
+			Thread.sleep(3000);
+			Date date1=new Date();
+			if (date.getTime()<date1.getTime()) {
+				System.out.println("11233132");
+			}
+			System.out.println(date.getDate());
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

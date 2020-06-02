@@ -1,0 +1,10 @@
+2018-03-08 14:57:11 [main:1] - [DEBUG] [Log4jTest:17] [main] 我是logger1，debug
+2018-03-08 14:57:11 [main:17] - [INFO] [Log4jTest:18] [main] 我是logger1，info
+2018-03-08 14:57:11 [main:17] - [WARN] [Log4jTest:19] [main] 我是logger1，warn
+2018-03-08 14:57:11 [main:17] - [ERROR] [Log4jTest:20] [main] 我是logger1，error
+2018-03-08 14:57:11 [main:17] - [FATAL] [Log4jTest:21] [main] 我是logger1，fatal
+2018-03-08 14:57:34 [main:2] - [DEBUG] [Log4jTest:17] [main] 我是logger1，debug
+2018-03-08 14:57:34 [main:2] - [INFO] [Log4jTest:18] [main] 我是logger1，info
+2018-03-08 14:57:34 [main:2] - [WARN] [Log4jTest:19] [main] 我是logger1，warn
+2018-03-08 14:57:34 [main:2] - [ERROR] [Log4jTest:20] [main] 我是logger1，error
+2018-03-08 14:57:34 [main:2] - [FATAL] [Log4jTest:21] [main] 我是logger1，fatal
